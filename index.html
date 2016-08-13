@@ -1,14 +1,17 @@
-<!DOCTYPE html>
-
-<head>
-  <title>essense&copy;</title>
-</head>
-
-<body>
-  <h1>essense&copy;</h1>
-  <p>
-    essense&copy; simply is a to-do list. not a common one though, it's an app to keep you focused on the most important things in your life.
-  </p>
-</body>
-
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>essense&copy;</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>essense&copy;</h1>
+      <p>Hello {{yourName}}!</p>
+      <p>essense&copy; simply is a to-do list. not a common one though, it's an app to keep you focused on the most important things in your life.</p>
+    </div>
+  </body>
 </html>
