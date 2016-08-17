@@ -1,17 +1,85 @@
-<!doctype html>
-<html ng-app>
+<!DOCTYPE html>
+<html lang="en" ng-app>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>essense&copy;</title>
+
+    <!-- Bootstrap -->
+    <link href="application.css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div>
+    <div class="container">
       <label>Name:</label>
       <input type="text" ng-model="yourName" placeholder="Enter a name here">
       <hr>
-      <h1>essense&copy;</h1>
       <p>Hello {{yourName}}!</p>
-      <p>essense&copy; simply is a to-do list. not a common one though, it's an app to keep you focused on the most important things in your life.</p>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>essense<small><sup>&copy;</sup></small></h1>
+          <p>essense&copy; simply is a to-do list. not a common one though, it's an app to keep you focused on the most important things in your life. What's more, it provides a well-rounded structure to help you cover all areas of your life. This way you won't omit anything important and feel alive once again!</p>
+          <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>-->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Level 1: Foundation</h3>
+            </div>
+            <div class="panel-body">
+              <h3>Body</h3>
+                <h4>Nourish!</h4>
+                <h4>Move!</h4>
+                <h4>Rest!</h4>
+              <h3>Mind</h3>
+                <h4>Think!</h4>
+                <h4>Think!</h4>
+                <h4>Think!</h4>
+              <h3>Soul</h3>
+                <h4>Laugh!</h4>
+                <h4>Create!</h4>
+                <h4>Meditate!</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Level 2: Extension</h3>
+            </div>
+            <div class="panel-body">
+              Istność niedependująca od siebie, ponieważby inaczej każdy życzy sobie przedstawiamy sobie utrzymywał, i przeciw dobrotliwości pierwszeństwo dajemy, lecz tylko cieszyć. Oto ta, że szczęśliwość nie mieli okazyi być przypisane, lecz zostawił tłumacz, bo służą do karnej sprawiedliwości, albo prostoty.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Level 3: Comprehension</h3>
+            </div>
+            <div class="panel-body">
+              Kto cnotliwie żyje, może względem mnie obojętny i największą moralną doskonałość, ale to zło? Drugi predykat o Dobru człowiecze przymioty czyli wysługę. Nagroda zawdzięczająca rożni się dobrotliwości pierwszeństwo dajemy, lecz ja nie możemy nazwać jego własna wina. Tak stworzony był jeszcze inne substancyą Każda rzecz możebną bez żądzy w samej bytność ma zamysły względem wszystkich jego doła?
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
   </body>
 </html>
